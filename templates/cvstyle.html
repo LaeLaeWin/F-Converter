@@ -90,24 +90,24 @@
 
 	<!-- Dropdown Structure -->
 <ul id="dropdown1" class="dropdown-content">
-  <li><a href="dropdown.html">ZawGyi to Uni</a></li>
+  <li><a href="{{url_for('dropdown.html')}}">ZawGyi to Uni</a></li>
   <li class="divider"></li>
-  <li><a href="dropdown2.html">ZawGyi to Win</a></li>
+  <li><a href="{{url_for('dropdown2.html')}}">ZawGyi to Win</a></li>
   <li class="divider"></li>
-  <li><a href="dropdown3.html">Win to Uni</a></li>
+  <li><a href="{{url_for('dropdown3.html')}}">Win to Uni</a></li>
   <li class="divider"></li>
-  <li><a href="dropdown4.html">Win to ZawGyi</a></li>
+  <li><a href="{{url_for('dropdown4.html')}}">Win to ZawGyi</a></li>
   <li class="divider"></li>
-  <li><a href="dropdown5.html">Uni to Win</a></li>
+  <li><a href="{{url_for('dropdown5.html')}}">Uni to Win</a></li>
   <li class="divider"></li>
-  <li><a href="dropdown6.html">Uni to ZawGyi</a></li>
+  <li><a href="{{url_for('dropdown6.html')}}">Uni to ZawGyi</a></li>
 </ul>
 <nav>
   <div class="nav-wrapper red red-text">
     <a href="cvstyle.html" class="brand-logo"><i class="material-icons">home</i>HOME</a>
     <ul class="right hide-on-med-and-down">
-      <li><a href="signin1.html">Sign In</a></li>
-      <li><a href="signup1.html">Sign Up</a></li>
+      <li><a href="{{url_for('signin1.html')}}">Sign In</a></li>
+      <li><a href="{{url_for('signup1.html')}}">Sign Up</a></li>
       <!-- Dropdown Trigger -->
       <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
     </ul>
